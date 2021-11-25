@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,700;1,300&display=swap');
+
+:root{
+    --primary-color: #ed4264;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    background: linear-gradient(0.25turn, #f4e2d8, #ddd6f3);
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 2em;
+}
+h1{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+p{
+    font-size: 2.3em;
+    text-align: center;
+}
+.container{
+    width: 30em;
+    margin:10em auto;
+    background-color: transparent;
+    border: solid var(--primary-color) 0.2em;
+    border-radius: 0.5em;
+    padding: 1em;
+}
+.container input{
+    margin: 0 auto 0.2em;
+    height: 2em;
+    width: 6em;
+    border:none;
+    font-size: 1em;
+    border-radius: 0.3em;
+    color: #333;
+    font-weight: bold;
+}
+.container input:focus {
+    color: var(--primary-color);
+}
+.container button:focus{
+    border: var(--primary-color) solid 0.15em;
+}
+.caixa-botao{
+    margin-top: 1em;
+    display: flex;
+}
+
+@media screen and (max-width: 538px) {
+    .container{
+        width: 15em;
+    }
+    .container input{
+        margin: 0 0.3em;
+    }
+    .div-main{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
