@@ -16,7 +16,7 @@ body{
 }
 h1{
     font-size: 2.5em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.2em;
     text-align: center;
 }
 p{
@@ -54,7 +54,7 @@ p{
 
 @media screen and (max-width: 538px) {
     .container{
-        width: 15em;
+        width: 17em;
     }
     .container input{
         margin: 0 0.3em;
